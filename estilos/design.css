@@ -1,0 +1,35 @@
+/* Centraliza o conteúdo da página */
+:root
+{
+    height: 100vh;
+}
+
+.centralizado
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#tela_de_carregamento
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icone_de_carregamento
+{
+    width: 10vh;
+    height: 10vh;
+    background-color: black;
+    opacity: 1;
+}
